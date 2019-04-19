@@ -1,14 +1,11 @@
 import * as React from 'react';
-import './App.css';
+import './App.scss';
+import Home from './home'
 
 class App extends React.Component {
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-      </div>
+      <Home />
     );
   }
 }
